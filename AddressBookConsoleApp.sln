@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33502.453
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddressBookConsoleApp", "AddressBookConsoleApp.csproj", "{DF83CCE1-B2B9-4C51-841A-85E35F2C080B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AddressBookConsoleApp", "AddressBookConsoleApp.csproj", "{DF83CCE1-B2B9-4C51-841A-85E35F2C080B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AddressBook.API", "..\AddressBook.API\AddressBook.API.csproj", "{9A36DA64-8B2E-40DC-8B19-F8D9B71D7EA0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddressBook.Domain", "..\AddressBook.Domain\AddressBook.Domain.csproj", "{BB43A14A-A159-4B5E-9FC6-653964949EB1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddressBook.Service", "..\AddressBook.DataAccess\AddressBook.Service.csproj", "{23515692-C80C-4D7C-81AC-41BE35702DCE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{DF83CCE1-B2B9-4C51-841A-85E35F2C080B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DF83CCE1-B2B9-4C51-841A-85E35F2C080B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DF83CCE1-B2B9-4C51-841A-85E35F2C080B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A36DA64-8B2E-40DC-8B19-F8D9B71D7EA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A36DA64-8B2E-40DC-8B19-F8D9B71D7EA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A36DA64-8B2E-40DC-8B19-F8D9B71D7EA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A36DA64-8B2E-40DC-8B19-F8D9B71D7EA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB43A14A-A159-4B5E-9FC6-653964949EB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB43A14A-A159-4B5E-9FC6-653964949EB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB43A14A-A159-4B5E-9FC6-653964949EB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB43A14A-A159-4B5E-9FC6-653964949EB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23515692-C80C-4D7C-81AC-41BE35702DCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23515692-C80C-4D7C-81AC-41BE35702DCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23515692-C80C-4D7C-81AC-41BE35702DCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23515692-C80C-4D7C-81AC-41BE35702DCE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

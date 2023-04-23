@@ -1,5 +1,6 @@
 ﻿
-using AddressBookConsoleApp;
+using AddressBook.DataAccess;
+using AddressBook.Domain;
 
 string connectionString = "Data Source=.\\LOCALHOST;Initial Catalog=AddressBookDB;Integrated Security=True";
 PersonRepository repository = new PersonRepository(connectionString);
